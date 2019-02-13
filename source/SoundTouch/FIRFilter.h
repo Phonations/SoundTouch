@@ -79,7 +79,7 @@ public:
 
     /// Operator 'new' is overloaded so that it automatically creates a suitable instance 
     /// depending on if we've a MMX-capable CPU available or not.
-    static void * operator new(size_t s);
+    static void * operator new(size_t);
 
     static FIRFilter *newInstance();
 
