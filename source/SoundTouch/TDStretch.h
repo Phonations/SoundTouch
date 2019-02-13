@@ -177,7 +177,7 @@ public:
 
     /// Operator 'new' is overloaded so that it automatically creates a suitable instance 
     /// depending on if we've a MMX/SSE/etc-capable CPU available or not.
-    static void *operator new(size_t s);
+    static void *operator new(size_t);
 
     /// Use this function instead of "new" operator to create a new instance of this class. 
     /// This function automatically chooses a correct feature set depending on if the CPU

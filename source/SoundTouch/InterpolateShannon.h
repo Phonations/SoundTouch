@@ -57,9 +57,7 @@ protected:
     int transposeStereo(SAMPLETYPE *dest, 
                         const SAMPLETYPE *src, 
                         int &srcSamples);
-    int transposeMulti(SAMPLETYPE *dest, 
-                        const SAMPLETYPE *src, 
-                        int &srcSamples);
+    int transposeMulti(SAMPLETYPE *, const SAMPLETYPE *, int &);
 
     double fract;
 
